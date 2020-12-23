@@ -41,6 +41,7 @@ const userLocation = () => {
     console.log('geolocation IS NOT available');
   }
 };
+
 const buttonDiv = document.createElement('div');
 const button = document.createElement('button');
 button.innerText = 'get weather';
